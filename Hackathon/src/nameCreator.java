@@ -40,8 +40,8 @@ public class nameCreator {
 		String lead_source[] = new String[] {"Google","Olark Chat","Direct Traffic","Organic Search","Referral Site"};
 		System.out.println("Lead Source: " + lead_source[rand.nextInt(4)]);
 		
-		String percentage_completion[] = new String[] {"25%", "50%","75%","100%"};
-		System.out.println("Form Completion: " + percentage_completion[rand.nextInt(3)]);
+		String percentage_completion[] = new String[] {"0","25%", "50%","75%","100%"};
+		System.out.println("Form Completion: " + percentage_completion[rand.nextInt(4)]);
 		
 		Integer total_time_spent = rand.nextInt(30);
 		System.out.println("Total Time Spent: " + total_time_spent + " minutes");
@@ -70,10 +70,10 @@ public class nameCreator {
 		String[] page_type = new String[] {"Product","Career","Pricing","Promotion"};
 		System.out.println("Page Type: " + page_type[rand.nextInt(3)]);
 		
-		String[] lead_quality = new String[] {"Not Sure","Low","Worst","High"};
+		String[] lead_quality = new String[] {"Not Sure","Worst","High in Relevance"};
 		System.out.println("Lead Quality: " + lead_quality[rand.nextInt(3)]);
 		
-		String[] last_notable_activity = new String[] {"Email Opened", "Page Visited on Website", "Had a Phone Coversation", "Email Link Clicked","Unreachable",
+		String[] last_notable_activity = new String[] {"Modified","Email Opened", "Page Visited on Website", "Had a Phone Coversation", "Email Link Clicked","Unreachable",
 				"Olark Chat Conversation","Email Bounced","SMS Sent","Unsubscribed","Form Submitted on Website","Had a Pone Conversation","SMS Sent"};
 		System.out.println("Last Notable Activity: " + last_notable_activity[rand.nextInt(11)]);
 
